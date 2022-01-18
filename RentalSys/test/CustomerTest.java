@@ -10,14 +10,18 @@ public class CustomerTest {
     @Test
     public void testAddMovieRental() {
         System.out.println("addMovieRental");
-        MovieRental arg = new MovieRental(new Movie("Title", Movie.NEW_RELEASE), 1);
+        Movie movie = new Movie("Title", Movie.NEW_RELEASE);
+        MovieRental arg = new MovieRental(movie, 1);
+        assertNotNull("Movie instace shouldn't be null",movie);
         assertNotNull("Movie rental instace shouldn't be null",arg);
     }
 
     @Test
     public void testAddVideoGameRental() {
         System.out.println("addVideoGameRental");
-        VideoGameRental arg = new VideoGameRental(new WiiGame("Mi Sports"), 1, true);
+        WiiGame game = new WiiGame("Mi Sports");
+        VideoGameRental arg = new VideoGameRental(game, 1, true);
+        assertNotNull("WiiGame instace shouldn't be null",game);
         assertNotNull("Movie rental instace shouldn't be null",arg);
     }
 

@@ -1,4 +1,3 @@
-package com.espol.rentalsystemtest;
 
 public class Movie {
 

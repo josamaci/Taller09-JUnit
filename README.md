@@ -15,8 +15,8 @@
 
 ![image](https://user-images.githubusercontent.com/74793371/149976290-1a32b3b7-2924-4776-8720-08e85d917887.png)
 
-## Pruebas para la clase Movie
-![image](https://user-images.githubusercontent.com/87040737/149976655-64edf091-b6c6-423d-866d-20dfa01c9534.png)
+### Pruebas para la clase Movie
+![image](https://user-images.githubusercontent.com/74793371/149980469-bec76781-93bc-40da-a82d-27f7f0649394.png)
 
 ### Pruebas para la clase Customer
 ![test](https://user-images.githubusercontent.com/84406998/149977285-9b207612-1bf5-42ee-a525-6026782aac6a.PNG)

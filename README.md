@@ -15,4 +15,6 @@
 
 ![image](https://user-images.githubusercontent.com/74793371/149976290-1a32b3b7-2924-4776-8720-08e85d917887.png)
 
+## Pruebas para la clase Movie
+![image](https://user-images.githubusercontent.com/87040737/149976655-64edf091-b6c6-423d-866d-20dfa01c9534.png)
 

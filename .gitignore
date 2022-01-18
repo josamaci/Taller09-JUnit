@@ -1,6 +1,5 @@
 target/
 nbproject/
-build/
 
 # Compiled class file
 *.class

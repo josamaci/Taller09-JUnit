@@ -19,4 +19,5 @@
 ![image](https://user-images.githubusercontent.com/74793371/149980469-bec76781-93bc-40da-a82d-27f7f0649394.png)
 
 ### Pruebas para la clase Customer
-![test](https://user-images.githubusercontent.com/84406998/149977285-9b207612-1bf5-42ee-a525-6026782aac6a.PNG)
+![Captura](https://user-images.githubusercontent.com/84406998/149980549-364d3439-47f0-46f6-b273-a94b5d9faff0.PNG)
+

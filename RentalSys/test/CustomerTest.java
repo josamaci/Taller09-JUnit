@@ -10,19 +10,27 @@ public class CustomerTest {
     @Test
     public void testAddMovieRental() {
         System.out.println("addMovieRental");
+        Customer instance = new Customer("PEPITO");
         Movie movie = new Movie("Title", Movie.NEW_RELEASE);
         MovieRental arg = new MovieRental(movie, 1);
-        assertNotNull("Movie instace shouldn't be null",movie);
-        assertNotNull("Movie rental instace shouldn't be null",arg);
+        instance.addMovieRental(arg);
+
+        assertNotNull("Movie instace shouldn't be null", movie);
+        assertNotNull("Movie rental instace shouldn't be null", arg);
+        assertFalse("The movie wasn't succesfully added to the custumer", instance.getMovieRentals().isEmpty());
     }
 
     @Test
     public void testAddVideoGameRental() {
         System.out.println("addVideoGameRental");
         WiiGame game = new WiiGame("Mi Sports");
+        Customer instance = new Customer("PEPITO");
         VideoGameRental arg = new VideoGameRental(game, 1, true);
-        assertNotNull("WiiGame instace shouldn't be null",game);
-        assertNotNull("Movie rental instace shouldn't be null",arg);
+        instance.addVideoGameRental(arg);
+
+        assertNotNull("WiiGame instace shouldn't be null", game);
+        assertNotNull("Movie rental instace shouldn't be null", arg);
+        assertFalse("The movie wasn't succesfully added to the custumer", instance.getVideoGameRental().isEmpty());
     }
 
     @Test
